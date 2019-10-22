@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first task</title>
+        <link rel = "stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="jquery.js"></script>
+    </head>
+
+    <body>
+        <h1>This is my first web page on my internship</h1>
+        <p>This is a paragraph</p>
+        <p>This is another Paragraph</p>
+        <a href="https://www.google.com/search?q=galaxy&sxsrf=ACYBGNTJveMilAncIB41lJ8sg43RyXWomg:1571648093582&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjVvdGy_azlAhUMmhQKHeehBDMQ_AUIEigB">here are a few more pictures of the galaxy</a><br>
+        <button>shows/hides the unordered list</button>
+        <div class = "imgblk">
+            <img src="Images/galaxy-wallpaper-34.jpg" alt="Image of a Galxy">
+            <!--Trying to make a list of items-->
+            <p>The Galaxy contains the following and many more</p>
+        <ul class = "list-group">
+            <li class = "list-group-item">Solar System</li>
+            <li class = "list-group-item">Plants</li>
+            <li class = "list-group-item">Stars</li>
+            <li class = "list-group-item">Milky Way</li>
+        </ul>
+        </div><!--End of image block div-->
+
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Weldone!</strong> You are learning so much. Would you like to fill a survey?
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+              </div>
+            </div>
+          </div>
+
+          <select name="select" id="api-dropdown"></select>
+    </body> 
+</html>
