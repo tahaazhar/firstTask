@@ -13,3 +13,19 @@ p, h1{
 ul{
     color: purple;
 }
+
+ol{
+    color: white;
+}
+
+q{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin: 100px;
+}
+
+.Nasa a:visited{
+    color: yellow;
+}
+
