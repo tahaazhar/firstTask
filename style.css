@@ -29,3 +29,22 @@ q{
     color: yellow;
 }
 
+.table table{
+    width: 100%;
+}
+
+.table th, td{
+    color: seashell;
+    border: 2px solid;
+    padding: 10px;
+    text-align: left;
+}
+
+.caption{
+    caption-side: top;
+    color: seashell;
+    text-align: center;
+}
+
+
+
