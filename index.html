@@ -3,6 +3,7 @@
     <head>
         <title>My first task</title>
         <link rel = "stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="jquery.js"></script>
@@ -27,7 +28,7 @@
         </div><!--End of image block div-->
 
         <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
+            A simple primary <mark>alert—check it out!</mark>
           </div>
 
           <div class="alert alert-primary" role="alert">
@@ -62,7 +63,7 @@
           <br>
           <br>
           <select name="select" id="api-dropdown"></select>
-          <p>I am using this paragraph to track changes for git.</p>
+          <p>I am using this <del>paragraph</del> to track changes for git.</p>
           <p>This will be pushed to the newBranch</p>
           <p>This is an amendment for stash</p>
           <br>
@@ -98,7 +99,7 @@
               </tr>
 
               <tr>
-                  <td>Viking 1 and Viking 2</td>
+                  <td><sub>Viking 1 and Viking 2</sub></td>
                   <td>1975</td>
                 </tr>
 
@@ -108,7 +109,7 @@
                   </tr>
 
                   <tr>
-                      <td>Galileo</td>
+                      <td><sup>Galileo</sup></td>
                       <td>1989</td>
                     </tr>
 
@@ -133,5 +134,23 @@
                             </tr>
             </table>
           </div>
+          <br>
+          <iframe src="https://www.nasa.gov/" height="500" width="500"></iframe>
+          <br>
+          <p>Here is some <kbd>computer</kbd> <samp>code</samp></p>
+          
+          <pre>
+            <code id = "dec2bin">
+              function decToBinary(n){
+                int arr [32];
+                int i;
+                while(n != 0){
+                  arr[i] = n%2;
+                  n= = n/2;
+                  i++;
+                }
+              }
+            </code>
+          </pre>
     </body> 
 </html>
